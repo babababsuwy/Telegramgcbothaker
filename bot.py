@@ -79,7 +79,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 
 def main() -> None:
-    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    bot_token = os.environ.get("7839522620:AAGmaOq_kfXTmulMlLCTE_Dgoe6VYyGSOHI")
     if not bot_token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN environment variable is not set.")
 
